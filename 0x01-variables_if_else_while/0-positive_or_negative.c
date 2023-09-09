@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+ * main - to print the output of the program
+ *
+ * Return: always 0
+ */
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
