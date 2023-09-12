@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	unsigned long int num1 = 0;
-	unsigned long int num2 = 1;
-	unsigned long int numx = 0;
-	int i = 0;
+	unsigned long int num1 = 1;
+	unsigned long int num2 = 2;
+	unsigned long int numx;
+	int i;
 
 	while (i < 98)
 	{
