@@ -12,7 +12,7 @@ int main(void)
 	unsigned long int numx;
 	int i;
 
-	print("%lu, ", num1);
+	printf("%lu, ", num1);
 	for (i = 1; i < 50; i++)
 	{
 		printf("%lu", num2);
