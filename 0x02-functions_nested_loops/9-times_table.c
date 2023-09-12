@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * times_table -
+ * times_table - a program that writes 9 times table
  * Return: 0
  */
 
