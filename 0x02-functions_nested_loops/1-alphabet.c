@@ -2,7 +2,7 @@
 
 
 /**
- * main - a function that writes alphabet in lower cases
+ * print_alphabet - a function that writes alphabet in lower cases
  * Return: 0
  */
 
