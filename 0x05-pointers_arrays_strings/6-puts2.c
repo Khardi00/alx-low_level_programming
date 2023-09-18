@@ -14,7 +14,6 @@ void puts2(char *str)
 	{
 		if (num % 2 == 0)
 			_putchar(str[num]);
-		_putchar('\n');
 	}
-
+	_putchar('\n');
 }
