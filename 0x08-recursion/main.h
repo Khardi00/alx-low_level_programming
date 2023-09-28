@@ -12,5 +12,8 @@ int square_recursion(int n, int a);
 int is_prime_number(int n);
 int prime_num(int n, int a);
 int wildcmp(char *s1, char *s2);
+int is_palindrome(char *s);
+int string_check(char *s, int a, int len);
+int string_len(char *s);
 
 #endif
