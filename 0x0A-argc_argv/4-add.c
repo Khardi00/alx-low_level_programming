@@ -18,18 +18,18 @@ int main(int argc, char *argv[])
 		printf("%d\n", 0);
 	else
 	{
-		for (k = 0; k < argc; k++)
+		for (k = 1; k < argc; k++)
 		{
-			for (l = 1; argv[k][l] != '\0'; l++)
+			for (l = 0; argv[k][l] != '\0'; l++)
 			{
-				if (!(isdigit(argv[k][k])))
+				if (!(isdigit(argv[k][l])))
 				{
 					printf("Error\n");
 					return (1);
 				}
 			}
-			 sum = sum + atoi(argv[k]);
-		}		
+			sum = sum + atoi(argv[k]);
+		}
 		printf("%d\n", sum);
 	}
 	return (0);
