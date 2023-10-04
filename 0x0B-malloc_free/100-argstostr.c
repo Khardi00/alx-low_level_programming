@@ -9,9 +9,7 @@
 
 char *argstostr(int ac, char **av)
 {
-	int k = 0;
-	int l = 0;
-	int m = 0;
+	int k, l, m = 0;
 	int len = 0;
 	char *result;
 
